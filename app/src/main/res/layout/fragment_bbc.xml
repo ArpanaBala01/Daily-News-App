@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFECEC"
+    tools:context=".Bbc">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#EDE1E1"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="BBC"
+        android:textSize="18sp" />
+
+    <WebView
+        android:id="@+id/webviewBBC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp" />
+</FrameLayout>
